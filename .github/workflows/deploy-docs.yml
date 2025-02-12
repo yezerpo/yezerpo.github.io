@@ -47,11 +47,12 @@ jobs:
           folder: src/.vuepress/dist
 
       - name: Wait for deployment to complete
-        run: sleep 60
+        run: |
+          pip install tencentcloud-sdk-python  
+          sleep 30
   
       - name: Refresh CDN Cache
         run: |
-          pip install tencentcloud-sdk-python
           python refresh_cdn.py
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
