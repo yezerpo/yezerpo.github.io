@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "也籽呀",
-  description: "vuepress-theme-hope 的博客演示",
+  description: "我在这里分享我的故事",
 
   theme,
 

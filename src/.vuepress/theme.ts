@@ -4,79 +4,66 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://yezer.cn",
 
-  author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
-  },
-
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+  repo: "yezerpo/yezerpo.github.io",
   docsDir: "src",
 
   // 导航栏
   navbar,
+  logo: "/header.svg",
+  titleIcon: true,
+  navbarTitle: "",
 
   // 侧边栏
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "苏ICP备2024137980号 | MIT Licensed | Copyright © 2025-present Kalidium",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    avatar: "avatar.webp",
+    name: "也籽呀",
+    description: "我在这里分享我的故事",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
+      //Baidu: "https://example.com",
+      //BiliBili: "https://example.com",
+      //Bitbucket: "https://example.com",
+      //Dingding: "https://example.com",
+      //Discord: "https://example.com",
+      //Dribbble: "https://example.com",
+      //Email: "mailto:info@example.com",
+      //Evernote: "https://example.com",
+      //Facebook: "https://example.com",
+      //Flipboard: "https://example.com",
+      //Gitee: "https://example.com",
+      //GitHub: "https://example.com",
+      //Gitlab: "https://example.com",
+      //Gmail: "mailto:info@example.com",
+      //Instagram: "https://example.com",
+      //Lark: "https://example.com",
+      //Lines: "https://example.com",
+      //Linkedin: "https://example.com",
+      //Pinterest: "https://example.com",
+      //Pocket: "https://example.com",
+      //QQ: "https://example.com",
+      //Qzone: "https://example.com",
+      //Reddit: "https://example.com",
+      //Rss: "https://example.com",
+      //Steam: "https://example.com",
+      //Twitter: "https://example.com",
+      //Wechat: "https://example.com",
+      //Weibo: "https://example.com",
+      //Whatsapp: "https://example.com",
+      //Youtube: "https://example.com",
+      //Zhihu: "https://example.com",
+      /*VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
-      },
-    },
-  },
-
-  // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
+      },*/
     },
   },
 
