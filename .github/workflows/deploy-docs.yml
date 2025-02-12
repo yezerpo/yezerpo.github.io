@@ -50,7 +50,9 @@ jobs:
         run: sleep 60
   
       - name: Refresh CDN Cache
-        run: python refresh_cdn.py
+        run: |
+          pip install tencentcloud-sdk-python
+          python refresh_cdn.py
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
