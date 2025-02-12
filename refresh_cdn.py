@@ -37,7 +37,7 @@ if __name__ == "__main__":
     SECRET_ID = os.getenv("TENCENT_SECRET_ID")
     SECRET_KEY = os.getenv("TENCENT_SECRET_KEY")
     REFRESH_DIRS = [
-        "https://yezer.cn/blog/",
+        "https://yezer.cn/",
     ]
 
     # 执行刷新
