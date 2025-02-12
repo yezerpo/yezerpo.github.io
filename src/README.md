@@ -19,7 +19,7 @@ projects:
     link: https://链接地址
 
   - icon: book
-    name: 书籍名称22
+    name: 书籍名称
     desc: 书籍详细描述
     link: https://你的书籍链接
 
