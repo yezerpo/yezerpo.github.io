@@ -47,11 +47,10 @@ jobs:
           folder: src/.vuepress/dist
 
       - name: Wait for deployment to complete
-        run: sleep 120
+        run: sleep 60
   
       - name: Refresh CDN Cache
         run: python refresh_cdn.py
         env:
-          TENCENT_CDN_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
-          TENCENT_CDN_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
-          CDN_URL_LIST: "https://yezer.cn/blog"
+          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}

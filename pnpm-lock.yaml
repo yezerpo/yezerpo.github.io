@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      requests:
+        specifier: ^0.3.0
+        version: 0.3.0
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.19
@@ -1101,6 +1105,9 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
+  axo@0.0.2:
+    resolution: {integrity: sha512-8CC4Mb+OhK97UEng0PgiqUDNZjzVcWDsV+G2vLYCQn1jEL7y6VqiRVlZlRu+aA/ckSznmNzW6X1I6nj2As/haQ==}
+
   balloon-css@1.2.0:
     resolution: {integrity: sha512-urXwkHgwp6GsXVF+it01485Z2Cj4pnW02ICnM0TemOlkKmCNnDLmyy+ZZiRXBpwldUXO+aRNr7Hdia4CBvXJ5A==}
 
@@ -1308,6 +1315,9 @@ packages:
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
+  eventemitter3@4.0.7:
+    resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
+
   execa@9.5.2:
     resolution: {integrity: sha512-EHlpxMCpHWSAh1dgS6bVeoLAXGnJNdR93aabr4QCGbzOM73o5XmRfM/e5FUqsw3aagP8S8XEWUWFAxnRBnAF0Q==}
     engines: {node: ^18.19.0 || >=20.5.0}
@@ -1315,6 +1325,12 @@ packages:
   extend-shallow@2.0.1:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
     engines: {node: '>=0.10.0'}
+
+  extendible@0.1.1:
+    resolution: {integrity: sha512-AglckQA0TJV8/ZmhQcNmaaFcFFPXFIoZbfuoQOlGDK7Jh/roWotYzJ7ik1FBBCHBr8n7CgTR8lXXPAN8Rfb7rw==}
+
+  failure@1.1.1:
+    resolution: {integrity: sha512-lzrrk0NUfjVeU3jLmfU01zP5bfg4XVFxHREYGvgJowaCqHLSQtqIGENH/CU+oSs6yfYObdSM7b9UY/3p2VJOSg==}
 
   fast-glob@3.3.3:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
@@ -1379,6 +1395,9 @@ packages:
   gray-matter@4.0.3:
     resolution: {integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==}
     engines: {node: '>=6.0'}
+
+  hang@1.0.0:
+    resolution: {integrity: sha512-vtBz98Bt/Tbm03cZO5Ymc7ZL8ead/jIx9T5Wg/xuz+9BXPAJNJSdGQW63LoaesogUQKTpHyal339hxTaTf/APg==}
 
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
@@ -1499,6 +1518,9 @@ packages:
   lit@3.2.1:
     resolution: {integrity: sha512-1BBa1E/z0O9ye5fZprPtdqnc0BFzxIxTTOO/tQFmyC/hj1O3jL4TfmLBw0WEwjAokdLwpclkvGgDJwTIh0/22w==}
 
+  loads@0.0.4:
+    resolution: {integrity: sha512-XjPzzYIHkuMNqYyvh6AECQAHi682nyKO9TMdMYnaz7QbPDI/KIeSIjRhAlXIbRMPYAgtLUYgPlD3mtKZ4Q8SYA==}
+
   locate-path@5.0.0:
     resolution: {integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==}
     engines: {node: '>=8'}
@@ -1572,6 +1594,9 @@ packages:
     engines: {node: ^18 || >=20}
     hasBin: true
 
+  node-http-xhr@1.3.4:
+    resolution: {integrity: sha512-0bA08/2RKWxw6pMkOVd3KP+0F5+ifQLMMTDxrCgxlgkoU1N8DhCbCSAYEqpgaVYM2smvbVVewiXjW+8AyoLfxQ==}
+
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
 
@@ -1589,6 +1614,9 @@ packages:
 
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
+
+  one-time@0.0.4:
+    resolution: {integrity: sha512-qAMrwuk2xLEutlASoiPiAMW3EN3K96Ka/ilSXYr6qR1zSVXw2j7+yDSqGTC4T9apfLYxM3tLLjKvgPdAUK7kYQ==}
 
   onetime@7.0.0:
     resolution: {integrity: sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==}
@@ -1720,6 +1748,9 @@ packages:
 
   regex@6.0.1:
     resolution: {integrity: sha512-uorlqlzAKjKQZ5P+kTJr3eeJGSVroLKoHmquUj4zHWuR+hEyNqlXsSKlYYF5F4NI6nl7tWCs0apKJ0lmfsXAPA==}
+
+  requests@0.3.0:
+    resolution: {integrity: sha512-1B6nkiHjC1O1cSgFhEwkc+xd8vuj04h7xSmCg5yI8nmhCIKbPkX47od8erQ2pokBt5qxUO7dwP4jplXD6k6ISA==}
 
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -2251,6 +2282,15 @@ packages:
   wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
     engines: {node: '>=8'}
+
+  xhr-response@1.0.1:
+    resolution: {integrity: sha512-m2FlVRCl3VqDcpc8UaWZJpwuHpFR2vYeXv6ipXU2Uuu4vNKFYVEFI0emuJN370Fge+JCbiAnS+JJmSoWVmWrjQ==}
+
+  xhr-send@1.0.0:
+    resolution: {integrity: sha512-789EG4qW6Z0nPvG74AV3WWQCnBG5HxJXNiBsnEivZ8OpbvVA0amH0+g+MNT99o5kt/XLdRezm5KS1wJzcGJztw==}
+
+  xhr-status@1.0.1:
+    resolution: {integrity: sha512-VF0WSqtmkf56OmF26LCWsWvRb1a+WYGdHDoQnPPCVUQTM8CVUAOBcUDsm7nP7SQcgEEdrvF4DmhEADuXdGieyw==}
 
   y18n@4.0.3:
     resolution: {integrity: sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==}
@@ -3361,6 +3401,8 @@ snapshots:
       postcss: 8.5.2
       postcss-value-parser: 4.2.0
 
+  axo@0.0.2: {}
+
   balloon-css@1.2.0: {}
 
   bcrypt-ts@5.0.3: {}
@@ -3598,6 +3640,8 @@ snapshots:
 
   estree-walker@2.0.2: {}
 
+  eventemitter3@4.0.7: {}
+
   execa@9.5.2:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
@@ -3616,6 +3660,10 @@ snapshots:
   extend-shallow@2.0.1:
     dependencies:
       is-extendable: 0.1.1
+
+  extendible@0.1.1: {}
+
+  failure@1.1.1: {}
 
   fast-glob@3.3.3:
     dependencies:
@@ -3689,6 +3737,8 @@ snapshots:
       kind-of: 6.0.3
       section-matter: 1.0.0
       strip-bom-string: 1.0.0
+
+  hang@1.0.0: {}
 
   has-flag@4.0.0: {}
 
@@ -3802,6 +3852,13 @@ snapshots:
       lit-element: 4.1.1
       lit-html: 3.2.1
 
+  loads@0.0.4:
+    dependencies:
+      failure: 1.1.1
+      one-time: 0.0.4
+      xhr-response: 1.0.1
+      xhr-status: 1.0.1
+
   locate-path@5.0.0:
     dependencies:
       p-locate: 4.1.0
@@ -3879,6 +3936,8 @@ snapshots:
 
   nanoid@5.0.9: {}
 
+  node-http-xhr@1.3.4: {}
+
   node-releases@2.0.19: {}
 
   normalize-path@3.0.0: {}
@@ -3893,6 +3952,8 @@ snapshots:
   nth-check@2.1.1:
     dependencies:
       boolbase: 1.0.0
+
+  one-time@0.0.4: {}
 
   onetime@7.0.0:
     dependencies:
@@ -4004,6 +4065,16 @@ snapshots:
   regex@6.0.1:
     dependencies:
       regex-utilities: 2.3.0
+
+  requests@0.3.0:
+    dependencies:
+      axo: 0.0.2
+      eventemitter3: 4.0.7
+      extendible: 0.1.1
+      hang: 1.0.0
+      loads: 0.0.4
+      node-http-xhr: 1.3.4
+      xhr-send: 1.0.0
 
   require-directory@2.1.1: {}
 
@@ -4470,6 +4541,12 @@ snapshots:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
+
+  xhr-response@1.0.1: {}
+
+  xhr-send@1.0.0: {}
+
+  xhr-status@1.0.1: {}
 
   y18n@4.0.3: {}
 
