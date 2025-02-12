@@ -15,9 +15,6 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.19
         version: 2.0.0-rc.19(@types/node@22.13.1)(sass-embedded@1.83.4)
-      artalk:
-        specifier: ^2.9.1
-        version: 2.9.1(marked@14.1.4)
       sass-embedded:
         specifier: ^1.83.0
         version: 1.83.4
@@ -3409,6 +3406,7 @@ snapshots:
   artalk@2.9.1(marked@14.1.4):
     dependencies:
       marked: 14.1.4
+    optional: true
 
   autoprefixer@10.4.20(postcss@8.5.2):
     dependencies:
@@ -3907,7 +3905,8 @@ snapshots:
       punycode.js: 2.3.1
       uc.micro: 2.1.0
 
-  marked@14.1.4: {}
+  marked@14.1.4:
+    optional: true
 
   mdast-util-to-hast@13.2.0:
     dependencies:

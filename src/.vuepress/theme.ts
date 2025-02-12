@@ -167,8 +167,11 @@ export default hopeTheme({
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     comment: {
-       provider: "Artalk",
-       server: "https://artalk.yezer.cn",
+       provider: "Giscus",
+       repo: "yezerpo/yezerpo.github.io",
+       repoId: "R_kgDON4MIlA",
+       category: "评论池",
+       categoryId: "DIC_kwDON4MIlM4Cm5nc",
      },
 
     components: {
