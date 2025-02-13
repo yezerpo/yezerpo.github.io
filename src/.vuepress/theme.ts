@@ -11,7 +11,7 @@ export default hopeTheme({
 
   // 导航栏
   navbar,
-  logo: "/header.svg",
+  logo: "/common/header.svg",
   titleIcon: true,
   navbarTitle: "",
 
@@ -19,12 +19,12 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "苏ICP备2024137980号 | MIT Licensed | Copyright © 2025-present Kalidium",
+  footer: "苏ICP备2024137980号 | Copyright © 2025-present Kalidium",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    avatar: "avatar.webp",
+    avatar: "/common/avatar.webp",
     name: "也籽呀",
     description: "我在这里分享我的故事",
     intro: "/intro.html",

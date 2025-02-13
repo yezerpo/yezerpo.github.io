@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: house
 title: 主页
-bgImage: /bgImage.webp
+bgImage: /common/bgImage.webp
 heroFullScreen: false
 tagline: 在这里聆听我的故事
 projects:
