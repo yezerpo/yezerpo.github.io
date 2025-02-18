@@ -53,7 +53,7 @@ jobs:
   
       - name: Refresh CDN Cache
         run: |
-          python refresh_cdn.py
+          python refresh-cdn-cache.py
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}

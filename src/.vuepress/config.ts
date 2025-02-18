@@ -10,7 +10,4 @@ export default defineUserConfig({
   description: "我在这里分享我的故事",
 
   theme,
-
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
 });

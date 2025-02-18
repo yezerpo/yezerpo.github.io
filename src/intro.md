@@ -1,6 +1,6 @@
 ---
 title: 我是谁
-icon: circle-info
+icon: fluent:accessibility-question-mark-24-filled
 cover: /common/bgImage.webp
 ---
 
