@@ -12,7 +12,6 @@ export default hopeTheme({
   // 导航栏
   navbar,
   titleIcon: true,
-  logo: "/common/header.svg",
   navbarTitle: "",
 
   // 侧边栏

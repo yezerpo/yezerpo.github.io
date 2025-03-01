@@ -1,7 +1,6 @@
 ---
 title: 我是谁
 icon: fluent:accessibility-question-mark-24-filled
-cover: /common/bgImage.webp
 ---
 
 # 介绍页
