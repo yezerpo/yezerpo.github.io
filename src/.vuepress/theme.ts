@@ -25,7 +25,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     avatar: "/common/avatar.webp",
-    name: "也籽呀",
+    name: "也籽",
     description: "我在这里分享我的故事",
     intro: "/intro.html",
   },
