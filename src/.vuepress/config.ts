@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "也籽呀",
-  description: "我在这里分享我的故事",
+  description: "在这里，我随便写点什么。",
 
   theme,
 });
